@@ -29,9 +29,7 @@ export default class TaskCard extends Component {
                                                     style={{ color:'red', marginRight: '1rem', cursor: 'pointer'}}
                                                     onClick={this.onDeleteClick.bind(this, id, dispatch)}
                                                 ></i>
-                                                <i class="fas fa-edit" style={{ color:'blue', cursor: 'pointer'}}></i>
                                             </span>
-
                                         </h5>
                                     </div>                
                                 </div>
