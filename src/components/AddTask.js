@@ -43,7 +43,7 @@ class AddTask extends Component {
                             <div className="col col-lg-6 col-md-8 col-sm-12 col-xs-12 mt-3 mb-4 mx-auto">
                                 <div className="card">
                                     <div className="card-header bg-info">
-                                        <h5 className="text-center text-white">Add Task</h5>
+                                        <h5 className="text-center text-white">Task Master</h5>
                                     </div>
                                     <div className="card-body">
                                         <form onSubmit={this.onSubmit.bind(this, dispatch, tasks)}>
